@@ -27,7 +27,7 @@ jobs:
       - name: Setup Litmus
         uses: litmuschaos/github-chaos-actions@master
         env:
-          INSTALL_LITMUS: false
+          INSTALL_LITMUS: true
 
       - name: Running Litmus pod delete chaos experiment
         uses: litmuschaos/github-chaos-actions@master
